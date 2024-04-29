@@ -54,7 +54,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <div>
-                    <button class="btn btn-primary"><a style="color:white;text-decoration:none" target="_blank" href="../src/login-signup/login.html">Login</a></button>
+                    <button class="btn btn-primary"><a style="color:white;text-decoration:none" target="_blank" href="../src/login-signup/login.php">Login</a></button>
                 </div>
                 <div>
                    <a style="text-decoration:none" target="_blank" href="#"><span
@@ -65,7 +65,7 @@
                       ></a>
                 </div>
                 <div>
-                    <button class="btn btn-primary"><a target="_blank" style="text-decoration: none;color:white" href="../src/single-user/single_user.html">Your Profile</a></button>
+                    <button class="btn btn-primary"><a target="_blank" style="text-decoration: none;color:white" href="../src/single-user/single_user.php">Your Profile</a></button>
                 </div>
                
                   
