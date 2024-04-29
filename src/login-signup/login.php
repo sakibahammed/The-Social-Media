@@ -113,7 +113,9 @@
                   <input type="password" class="form-control" id="password" placeholder="Enter your password">
                 </div>
                 
-               <center> <button type="submit" id="login-btn" class=" btn btn-primary px-5 ">Log in</button></center>
+               <center> <button type="submit" id="login-btn" class=" btn btn-primary px-5" name="login">Log in</button></center>
+
+
                 <hr>
                 <center><div class="mt-3" style="font-size: 16px;" id="emailHelp" class="form-text">Dont have an Account Join now <span class="text-danger">!</span></div></center>
                 <hr>
@@ -153,24 +155,35 @@
       </div>
       <div class="modal-body">
         <form class="">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">User Name</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Name" required="required">
+          </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Birthday</label>
+            <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your birthday" required="required">
+          </div>
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Email">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Email" required="required">
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter an amazing password">
+            <input type="password" class="form-control" id="password" placeholder="Enter an amazing password" required="required">
           </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Re type your password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Re type the Chosen password">
-          </div>
+        
 
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Welcome To The Social Media
           </button>
           
-        
+        <!-- <?php
+          include("insert_user.php");
+        ?> -->
+
+
+
+
         </form>
       </div>
      
