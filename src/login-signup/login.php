@@ -117,11 +117,15 @@
 
 
                 <hr>
-                <center><div class="mt-3" style="font-size: 16px;" id="emailHelp" class="form-text">Dont have an Account Join now <span class="text-danger">!</span></div></center>
+                <center><div class="mt-3" style="font-size: 16px;" id="emailHelp" class="form-text">Don't have an Account Join now <span class="text-danger">!</span></div></center>
                 <hr>
-                <center><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <center>
+                  <a href="sign_up.php">
+                  <button type="button" class="btn btn-primary">
                   Create New Account
-                </button></center>
+                </button>
+              </a>
+              </center>
               </form>
             </div>
           </div>
@@ -185,7 +189,7 @@
             Welcome To The Social Media
           </button>
           
-        <!-- <?php
+        <?php
           include("insert_user.php");
         ?> -->
 
@@ -197,7 +201,7 @@
      
     </div>
   </div>
-</div> -->
+</div> 
 
 
 
