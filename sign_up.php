@@ -95,7 +95,7 @@
 					</div><br>
 					<a style="text-decoration: none;float: right;color: #187FAB;" data-toggle="tooltip" title="Signin" href="login.php">Already have an account?</a><br><br>
 
-					<center><button id="signup" class="btn btn-primary btn-lg btn-primary" name="sign_up">Signup</button></center>
+					<center><button id="signup" class="btn btn-primary btn-lg btn-primary" name="sign_up">Welcome to the Free Media</button></center>
 					<?php include("insert_user.php"); ?>
 				</form>
 			</div>
