@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://127.0.0.1:5500/src/single-user/single_user.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSM : The Social Media</title>
+
+
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./TSM _ The Social Media_files/css2" rel="stylesheet">
+
+    <link rel="stylesheet" href="./TSM _ The Social Media_files/login.css">
+    <style>
+      .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+    </style>
+
+    <!--Css Bootstrap added-->
+
+    <link href="./TSM _ The Social Media_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--Font awesome icon-->
+
+    <link rel="stylesheet" href="./TSM _ The Social Media_files/all.min.css">
+    <!--Animate CSS-->
+    <link rel="stylesheet" href="./TSM _ The Social Media_files/animate.min.css">
+
+
+
+  <!-- Custom CSS-->
+  <link rel="stylesheet" href="./TSM _ The Social Media_files/single_user.css">
+</head>
+<body class="roboto-medium">
+
+    <!--Header picture-->
+    <div id="cover-photo">
+            
+    </div>   
+    
+    <header>
+       
+        <section class="container" id="header-id">
+            <img id="" class=" mt-4 img-fluid rounded-circle" style="width: 120px;" src="./TSM _ The Social Media_files/doggo.png" alt="">
+           <h3 class="mt-3 fw-bolder "><span>Mr. Doggesh</span> <span class="fw-light h5">(Doggo)</span></h3> 
+           <span>194 Followers</span>
+           <br>
+           <a class="btn btn-primary mt-2" href="http://127.0.0.1:5500/src/single-user/single_user.html">See Followers</a>
+           
+           <a class=" ms-1 btn btn-primary mt-2" href="http://127.0.0.1:5500/src/single-user/single_user.html">Following</a>
+            <p class="text-center mt-4 px-3 mb-5"><span>🐶 Spreading smiles one wag at a time , ✉️ DM for belly rub appointments
+
+            </span></p>
+            <p class="mt-5 fs-5 fw-bold "><span>Prf : Back End Dev @ Doogle</span></p>
+
+            <div class="d-flex justify-content-center align-items-center">
+
+            <div>
+                <textarea name="" id="" cols="30" rows="2" class="text-center px-3 mt-4" placeholder="Whats&#39;s in Your mind"></textarea>
+            </div>
+            <div>
+                <button class="btn btn-primary ms-2">Share</button>
+            </div>
+            </div>
+            
+
+
+
+        </section>
+    </header>
+
+    <main class="mt-5">
+       
+        <article class="container mt-5">
+            <h4 class="fw-bold mt-5 mb-5">Posts you have shared</h4>
+            <div class="p-3 mt-3" style="border: 3px solid black;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sapiente illum officia iusto cum enim impedit, quo odio ullam doloribus? Eos corporis sed ea eius facere quidem deserunt ut assumenda voluptates similique pariatur alias nulla quibusdam blanditiis, dolorum, ab tenetur.</p>
+            </div>
+            <div class="p-3 mt-3" style="border: 3px solid black;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sapiente illum officia iusto cum enim impedit, quo odio ullam doloribus? Eos corporis sed ea eius facere quidem deserunt ut assumenda voluptates similique pariatur alias nulla quibusdam blanditiis, dolorum, ab tenetur.</p>
+            </div>
+            <div class="p-3 mt-3" style="border: 3px solid black;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sapiente illum officia iusto cum enim impedit, quo odio ullam doloribus? Eos corporis sed ea eius facere quidem deserunt ut assumenda voluptates similique pariatur alias nulla quibusdam blanditiis, dolorum, ab tenetur.</p>
+            </div>
+            
+            
+        </article>
+    </main>
+    <footer class="p-3 mt-5" style="background-color: black; ">
+        <p class="text-center" style="color: azure;">All right Reserved</p>
+      </footer>
+      
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
