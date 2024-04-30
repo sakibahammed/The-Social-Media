@@ -64,7 +64,7 @@
             <a class="navbar-brand" href="#">
               <!--Nav image-->
               <img
-                src="../../image/Untitled_design-removebg-preview.png"
+                src="image/Untitled_design-removebg-preview.png"
                 alt=""
                 width="80"
                 class="d-inline-block align-text-top img-fluid"
@@ -137,71 +137,6 @@
 
     </main>
 
-
-
-
-
-
-
-
-    <!--Sign up modal-->
-
-    <!-- Button trigger modal -->
-
-
-<!-- Modal -->
-<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title text-primary fw-bold h3 mx-auto animate__animated animate__backInUp" id="exampleModalLabel">Sign Up <span class="text-danger">!</span></h5>
-        
-      </div>
-      <div class="modal-body">
-        <form class="">
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">first Name</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your first Name" name="first_name" required="required">
-          </div>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Last Name</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your last Name" name="last_name" required="required">
-          </div>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">User Name</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your UserName" required="required" name="username">
-          </div>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Birthday</label>
-            <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your birthday" required="required" name="user_birthday">
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Email" required="required" name="user_email">
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="password" placeholder="Enter an amazing password" required="required" name="user_password">
-          </div>
-        
-
-          <button type="button" name="signup" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Welcome To The Social Media
-          </button>
-          
-        <?php
-          include("insert_user.php");
-        ?> -->
-
-
-
-
-        </form>
-      </div>
-     
-    </div>
-  </div>
-</div> 
 
 
 

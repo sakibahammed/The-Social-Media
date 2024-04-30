@@ -15,7 +15,7 @@ include("includes/connection.php");
 		$newgid = sprintf('%05d', rand(0, 999999));
 
 		$username = strtolower($first_name . "_" . $last_name . "_" . $newgid);
-		$check_username_query = "select user_name from users where user_email='$email'";
+		$check_username_query = "select user_name from users where  user_mail='$email'";
 		$run_username = mysqli_query($con,$check_username_query);
 
 		if(strlen($pass) <9 ){
@@ -23,8 +23,8 @@ include("includes/connection.php");
 			exit();
 		}
 
-		$check_email = "select * from users where user_email='$email'";
-		$run_email = mysqli_query($check_email);
+		$check_email = "select * from users where user_mail='$email'";
+		$run_email = mysqli_query($con,$check_email);
 
 		$check = mysqli_num_rows($run_email);
 
@@ -43,7 +43,7 @@ include("includes/connection.php");
 			else if($rand == 3)
 				$profile_pic = "head_turqoise.png";
 
-		$insert = "insert into users (f_name,l_name,user_name,describe_user,Relationship,user_pass,user_email,user_country,user_gender,user_birthday,user_image,user_cover,user_reg_date,status,posts,recovery_account)
+		$insert = "insert into users (f_name,l_name,user_name,describe_user,relationship,user_pass,user_email,user_country,user_gender,user_birthday,user_image,user_cover,user_reg_date,status,posts,recover_account)
 		values('$first_name','$last_name','$username','Hello Coding Cafe.This is my default status!','...','$pass','$email','$country','$gender','$birthday','$profile_pic','default_cover.jpg',NOW(),'$status','$posts','Iwanttoputading intheuniverse.')";
 		
 		$query = mysqli_query($con, $insert);
@@ -54,7 +54,7 @@ include("includes/connection.php");
 		}
 		else{
 			echo "<script>alert('Registration failed, please try again!')</script>";
-			echo "<script>window.open('signup.php', '_self')</script>";
+			echo "<script>window.open('login.php', '_self')</script>";
 		}
 	}
 ?>
